@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Changing Web Page!</title>
+        <script src="script1.js"></script><br>
+    </head>
+    <body>
+
+       <script>
+            var name = "Alina";
+            var age = 29;
+            var student = true;
+            console.log(name);
+            document.write("Name " + name + "<br>");
+            document.write("Age " + age + "<br>");
+            document.write("Is student? " + student);
+            
+        </script>
+        <h1>page heading</h1>
+        <h1>page heading2</h1>
+        <script>
+            document.getElementsByTagName("h1")[1].innerHTML = name;
+        </script>
+
+    </body>
+</html>
